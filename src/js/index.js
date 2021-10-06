@@ -38,7 +38,7 @@ function render(variables = {}) {
   } </h1>
           <h2>${variables.roll !== null ? variables.roll : ""}</h2>         
           <h3>${variables.country !== null ? variables.country : ""}</h3>
-          <ul class="position-right">
+          <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/?lang=es"><i class="fa fa-twitter"></i></a></li>
             <li><a href="https://github.com/${
               variables.twitter
